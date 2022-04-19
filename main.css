@@ -1,0 +1,58 @@
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+body {
+  background: hsl(212deg, 45%, 89%);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.container {
+  height: fit-content;
+  width: 280px;
+  background: hsl(0deg, 0%, 100%);
+  padding: 14px;
+  border-radius: 18px;
+  box-shadow: 0px 10px 8px -1px rgba(31, 50, 81, 0.75);
+  -webkit-box-shadow: 0px 10px 8px -1px rgba(31, 50, 81, 0.75);
+  -moz-box-shadow: 0px 10px 8px -1px rgba(31, 50, 81, 0.75);
+}
+.container img {
+  display: block;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.texts {
+  text-align: center;
+  margin: 0px;
+  padding: 12px;
+  padding-top: 8px;
+}
+.texts h2 {
+  font-size: 20px;
+  font-weight: 700;
+  color: rgb(31, 50, 81);
+}
+.texts p {
+  font-size: 15px;
+  font-weight: 400;
+  color: hsl(220deg, 15%, 55%);
+}
+
+.attribution {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 20px;
+}
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+/*# sourceMappingURL=main.css.map */
